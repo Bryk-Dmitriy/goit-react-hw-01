@@ -11,8 +11,8 @@ export default function Profile({ name, tag, location, image, stats }) {
       width={200}
     />
     <p><b>{name}</b></p>
-    <p style={{ color: 'gray' }}>@{tag}</p>
-    <p style={{ color: 'gray' }}>{location}</p>
+    <p className={css.profileListParagraph}>@{tag}</p>
+    <p className={css.profileListParagraph}>{location}</p>
   </div>
 
   <ul className={css.profileList}>
